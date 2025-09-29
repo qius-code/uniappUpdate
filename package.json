@@ -1,0 +1,12 @@
+{
+  "name": "uniapp-update-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev ./public --binding LATEST_VERSION=1.0.1 --binding WGT_FILENAME=__UNI__002ED59.wgt",
+    "deploy": "wrangler pages deploy ./public --project-name uniapp-update-pages"
+  },
+  "devDependencies": {
+    "wrangler": "^3.79.0"
+  }
+}
