@@ -19,7 +19,7 @@ export const onRequestGet = async (context: any) => {
   return new Response(
     JSON.stringify({
       update: needsUpdate,
-      wgtUrl: needsUpdate ? wgtUrl : "",
+      wgtUrl: wgtUrl,
       latestVersion,
       clientVersion,
       clientName,
